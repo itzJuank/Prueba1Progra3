@@ -3,14 +3,12 @@
 ## Salida esperada
 
 ```text
-Historial nuevo: contar() = 0; getEstadoActual() = SIN ESTADO
-registrar EMITIDO, PENDIENTE_ENVIO, ENVIADO
-contar() = 3; getEstadoActual() = ENVIADO
-eliminarPrimero() = EMITIDO; contar() = 2
-eliminarPrimero() = PENDIENTE_ENVIO
-eliminarPrimero() = ENVIADO
-contar() = 0; getEstadoActual() = SIN ESTADO
-eliminarPrimero() = null
+3
+RECIBIDO
+EMITIDO
+2
+ENVIADO
+RECIBIDO
 ```
 
 `NodoEstado` y `HistorialDocumento` están en `prueba1.estructuras`.
