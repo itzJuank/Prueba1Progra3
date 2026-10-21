@@ -15,6 +15,7 @@ public class HistorialDocumento {
         while (actual.getSiguiente() != null) {
             actual = actual.getSiguiente();
         }
+
         actual.setSiguiente(nuevo);
     }
 
@@ -48,8 +49,9 @@ public class HistorialDocumento {
             return null;
         }
 
-        String estadoRetirado = cabeza.getEstado();
+        String estadoEliminado = cabeza.getEstado();
         cabeza = cabeza.getSiguiente();
-        return estadoRetirado;
+
+        return estadoEliminado;
     }
 }

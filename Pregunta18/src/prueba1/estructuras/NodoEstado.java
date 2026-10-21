@@ -1,11 +1,12 @@
 package prueba1.estructuras;
 
 public class NodoEstado {
-    private final String estado;
+    private String estado;
     private NodoEstado siguiente;
 
     public NodoEstado(String estado) {
         this.estado = estado;
+        this.siguiente = null;
     }
 
     public String getEstado() {

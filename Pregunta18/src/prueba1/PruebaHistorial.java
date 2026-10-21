@@ -6,24 +6,15 @@ public class PruebaHistorial {
     public static void main(String[] args) {
         HistorialDocumento historial = new HistorialDocumento();
 
-        System.out.println("Historial nuevo: contar() = " + historial.contar()
-                + "; getEstadoActual() = " + historial.getEstadoActual());
-
         historial.registrar("EMITIDO");
-        historial.registrar("PENDIENTE_ENVIO");
         historial.registrar("ENVIADO");
-        System.out.println("registrar EMITIDO, PENDIENTE_ENVIO, ENVIADO");
+        historial.registrar("RECIBIDO");
 
-        System.out.println("contar() = " + historial.contar()
-                + "; getEstadoActual() = " + historial.getEstadoActual());
-
-        System.out.println("eliminarPrimero() = " + historial.eliminarPrimero()
-                + "; contar() = " + historial.contar());
-        System.out.println("eliminarPrimero() = " + historial.eliminarPrimero());
-        System.out.println("eliminarPrimero() = " + historial.eliminarPrimero());
-
-        System.out.println("contar() = " + historial.contar()
-                + "; getEstadoActual() = " + historial.getEstadoActual());
-        System.out.println("eliminarPrimero() = " + historial.eliminarPrimero());
+        System.out.println(historial.contar());           // 3
+        System.out.println(historial.getEstadoActual());  // RECIBIDO
+        System.out.println(historial.eliminarPrimero());  // EMITIDO
+        System.out.println(historial.contar());           // 2
+        System.out.println(historial.eliminarPrimero());  // ENVIADO
+        System.out.println(historial.getEstadoActual());  // RECIBIDO
     }
 }
