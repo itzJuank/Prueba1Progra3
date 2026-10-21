@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Prueba1Progra3" default="jar" basedir=".">
+    <description>Aplicación Java con Ant: documentos y pruebas JUnit.</description>
+    <import file="nbproject/build-impl.xml"/>
+</project>
