@@ -1,5 +1,8 @@
 /build/
 /dist/
 /nbproject/private/
+/Pregunta18/build/
+/Pregunta18/dist/
+/Pregunta18/nbproject/private/
 .DS_Store
 *.class
