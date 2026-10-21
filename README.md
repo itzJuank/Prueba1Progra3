@@ -1,9 +1,9 @@
 # Prueba1Progra3
 
-Respuesta a la pregunta 17 de la primera prueba de Progra3
+Respuesta a la pregunta 17 de la primera prueba de Progra3, El resto de preguntas están en su respectiva carpeta.
 
 La [pregunta 18](Pregunta18/README.md) está en la subcarpeta `Pregunta18`,
-como un proyecto Java con Ant independiente. Ábrela en NetBeans mediante
+como un proyecto independiente. Ábrela en NetBeans mediante
 **Archivo → Abrir proyecto → Pregunta18**.
 
 ## Estructura
